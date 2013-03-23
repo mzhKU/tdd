@@ -1,1 +1,7 @@
 Examples of TDD
+
+REQUIRES in .bash_profile
+# JAVA CLASSPATH
+export CLASSPATH=/Users/machine/programming/tdd/money/junit-4.11.jar
+export CLASSPATH=$CLASSPATH:/Users/machine/programming/tdd/money
+export CLASSPATH=$CLASSPATH:/Users/machine/programming/tdd/money/hamcrest-core-1.3.jar

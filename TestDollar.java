@@ -1,8 +1,9 @@
+import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestDollar
 {
-    public void testMultiplication()
+    public void TestMultiplication()
     {
         Dollar five = new Dollar(5);
         five.times(2);
