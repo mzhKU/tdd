@@ -1,15 +1,24 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class TestDollar
+class Dollar
 {
-    public static void main(String[] args)
+    int amount=10;
+
+    Dollar(int amount)
     {
-    System.out.println("Main.");
     }
 
+    void times(int multiplier)
+    {
+    }
+}
+
+public class TestDollar
+{
     public void TestMultiplication()
     {
+        System.out.println("TestMultiplication()");
         Dollar five = new Dollar(5);
         five.times(2);
         assertEquals(10, five.amount);
