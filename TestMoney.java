@@ -12,7 +12,7 @@ public class TestMoney
     
     public void testFrancMultiplication()
     {
-        Money franc = Money.franc(5);
+        Money five = Money.franc(5);
         assertEquals(Money.franc(10), five.times(2));
         assertEquals(Money.franc(15), five.times(3));
     }
@@ -28,12 +28,12 @@ public class TestMoney
 
     public static void main(String[] args)
     {
-        TestDollar testDollar = new TestDollar();
+        TestMoney testMoney = new TestMoney();
         
         // Tests.
-        testDollar.testMultiplication();
-        testDollar.testEquality();
-        testDollar.testFrancMultiplication();
+        testMoney.testMultiplication();
+        testMoney.testEquality();
+        testMoney.testFrancMultiplication();
     }
 }
 
